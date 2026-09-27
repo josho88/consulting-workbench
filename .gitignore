@@ -1,0 +1,53 @@
+# Secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Editors and notebooks
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local data and generated output
+data/
+datasets/
+outputs/
+artifacts/
+*.parquet
+*.feather
+*.sqlite
+*.db
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.rds
+*.rda
